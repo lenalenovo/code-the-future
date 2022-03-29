@@ -1,0 +1,51 @@
+        body {
+            background-color: blue;
+            margin: 0;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .header,
+        footer {
+            height: 7%;
+            background-color: aquamarine;
+        }
+        
+        .bar-status {
+            height: 7%;
+            background-color: aqua;
+        }
+        
+        .main {
+            flex-grow: 1;
+            flex-shrink: 0;
+        }
+        
+        .align-center {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .name-text {
+            font-size: 2em;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .margin-text-end {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+        
+        .consume-btn {
+            border-radius: 5px;
+            background-color: aqua;
+            border: none;
+            height: 7%;
+            color: aliceblue;
+            margin-bottom: 2% !important;
+        }
