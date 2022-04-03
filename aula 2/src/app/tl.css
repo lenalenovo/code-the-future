@@ -1,51 +1,58 @@
-        body {
-            background-color: blue;
-            margin: 0;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-        
-        .header,
-        footer {
-            height: 7%;
-            background-color: aquamarine;
-        }
-        
-        .bar-status {
-            height: 7%;
-            background-color: aqua;
-        }
-        
-        .main {
-            flex-grow: 1;
-            flex-shrink: 0;
-        }
-        
-        .align-center {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        .name-text {
-            font-size: 2em;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        .margin-text-end {
-            display: flex;
-            align-items: center;
-            justify-content: flex-end;
-        }
-        
-        .consume-btn {
-            border-radius: 5px;
-            background-color: aqua;
-            border: none;
-            height: 7%;
-            color: aliceblue;
-            margin-bottom: 2% !important;
-        }
+
+.header {
+height: 80px;
+width: 100%;
+position: fixed;
+z-index: 10;
+background-color: black;
+}
+
+.status {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: calc(100% - 160px);
+}
+
+.menu {
+    float: right;
+    list-style: none;
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+#logo {
+    width: 74px;
+    position: absolute;
+    top: 3px;
+ }
+
+ li {
+    float: left;  
+    padding: 20 20 20 10; 
+    border: 1px ;
+   }
+
+
+.lista:hover {
+    background-color: white;
+}
+
+a {
+    -background-color: red;
+    color: white;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    -text-transform: uppercase;
+  }
+
+.imagem {
+
+    width: 30%;
+    height: 50%;
+    align-self: center;
+}
+
