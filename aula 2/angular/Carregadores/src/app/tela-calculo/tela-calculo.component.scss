@@ -1,0 +1,74 @@
+
+.header {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 999px;
+    background-color: black;
+    top: 0;
+    left: 0;
+    
+    }
+    
+#logo {
+        width: 74px;
+        position: absolute;
+        top: 3px;
+        left: 47%;
+        right: 53%;
+     }
+    
+li {
+        float: left;  
+        padding: 20 20 20 10; 
+        border: 1px ;
+       }
+    
+    
+.lista:hover {
+        background-color: white;
+    }
+    
+.menuz{
+        background-color: black;
+        color: white;
+        padding: 1em 1.5em;
+        text-decoration: none;
+        
+        text-transform: uppercase;
+      }
+    
+.espimg {
+        padding-top: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+.imagem {
+    
+        width: 30%;
+        height: 50%;
+        align-self: center;
+    }
+    
+.verde{
+    color: white;
+    background-color: green;
+    }
+    
+.vermelho{
+    color:white;
+    background-color: red;
+    }
+    
+.amarelo{
+    color: black;
+    background-color: yellow;
+    }
+    
+#lista {
+        display: flex;
+        flex-direction: column;
+    }

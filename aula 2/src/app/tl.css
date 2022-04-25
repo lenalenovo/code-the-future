@@ -3,31 +3,19 @@
 height: 80px;
 width: 100%;
 position: fixed;
-z-index: 10;
+z-index: 999px;
 background-color: black;
-}
+top: 0;
+left: 0;
 
-.status {
-    padding: 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    height: calc(100% - 160px);
-}
-
-.menu {
-    float: right;
-    list-style: none;
-    margin-top: 0px;
-    padding-top: 5px;
-    padding-bottom: 0px;
 }
 
 #logo {
     width: 74px;
     position: absolute;
     top: 3px;
+    left: 47%;
+    right: 53%;
  }
 
  li {
@@ -41,13 +29,18 @@ background-color: black;
     background-color: white;
 }
 
-a {
-    -background-color: red;
+.menuz{
+    background-color: black;
     color: white;
     padding: 1em 1.5em;
     text-decoration: none;
-    -text-transform: uppercase;
+    
+    text-transform: uppercase;
   }
+
+.espimg {
+    padding-top: 80px;
+}
 
 .imagem {
 
@@ -56,3 +49,22 @@ a {
     align-self: center;
 }
 
+.verde{
+color: white;
+background-color: green;
+}
+
+.vermelho{
+color:white;
+background-color: red;
+}
+
+.amarelo{
+color: black;
+background-color: yellow;
+}
+
+#lista {
+    display: flex;
+    flex-direction: column;
+}
