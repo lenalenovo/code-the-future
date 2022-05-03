@@ -18,7 +18,7 @@ export class TelaCalculoComponent implements OnInit {
   }
    historico = []
   cliquebtn() { 
-  
+      console.log(this.n)
       let calculo = ((this.n / 100) * 120)
       if (calculo > 60) {
        this.valor =Math.floor(calculo /60) + " hora(s) e " + Math.floor(calculo%60) +" minutos"}
