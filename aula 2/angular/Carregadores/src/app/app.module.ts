@@ -13,9 +13,14 @@ import { TelaInicialModule } from './tela-inicial/tela-inicial.module';
 import { RouterModule } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { MatSliderModule } from '@angular/material/slider';
+import { HistoricComponent } from './historic/historic.component';
+
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HistoricComponent
     // TelaInicialComponent,
     // TelaCalculoComponent
   ],

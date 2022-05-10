@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-tela-calculo',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TelaCalculoComponent implements OnInit {
 
-  constructor() { }
+  constructor(private route:ActivatedRoute, private router:Router) { }
 
   n:number
   cor:string = ""
@@ -64,6 +65,12 @@ export class TelaCalculoComponent implements OnInit {
   console.log(itens)
   let lista1 = document.getElementById("lista")
   lista1.innerHTML=itens
+  this.router.navigate(['/historic'], 
+        { queryParams: { historico: JSON.stringify(this.historico) }});
+
+      
   }
+  
+  
  
 }
