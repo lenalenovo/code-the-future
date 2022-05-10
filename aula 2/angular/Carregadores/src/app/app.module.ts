@@ -11,6 +11,7 @@ import { TelaCalculoModule } from './tela-calculo/tela-calculo.module';
 import { TelaInicialComponent } from './tela-inicial/tela-inicial.component';
 import { TelaInicialModule } from './tela-inicial/tela-inicial.module';
 import { RouterModule } from '@angular/router';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,7 @@ import { RouterModule } from '@angular/router';
     RouterModule,
     AppRoutingModule,
     FormsModule,    
-    CommonModule,
+    CommonModule, BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

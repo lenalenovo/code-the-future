@@ -33,6 +33,7 @@ export class TelaCalculoComponent implements OnInit {
       else {
        this.cor="vermelho"
       }
+
   }
 
    historia()
@@ -46,6 +47,9 @@ export class TelaCalculoComponent implements OnInit {
       let registro = {
           nome: this.nome, carregou:this.carregou
       }
+      this.carregou = null
+      this.nome = null
+      alert("Salvo")
       this.historico.push(registro)
       console.log(this.historico)
   }
@@ -61,4 +65,5 @@ export class TelaCalculoComponent implements OnInit {
   let lista1 = document.getElementById("lista")
   lista1.innerHTML=itens
   }
+ 
 }
